@@ -88,7 +88,7 @@ const DashboardPage = () => {
   };
 
   const handleCopy = (id, shortUrl) => {
-    const fullUrl = `${import.meta.env.VITE_FRONT_END_URL}/s/${shortUrl}`;
+    const fullUrl = `${window.location.origin}/s/${shortUrl}`;
     navigator.clipboard.writeText(fullUrl);
     setCopiedId(id);
     toast.success("Copied to clipboard!");
