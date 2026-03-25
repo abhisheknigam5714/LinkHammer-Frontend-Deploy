@@ -10,7 +10,7 @@ import DashboardPage from "./pages/DashboardPage";
 import ErrorPage from "./pages/ErrorPage";
 import ShortenRedirectPage from "./pages/ShortenRedirectPage";
 import PrivateRoute from "./PrivateRoute";
-import Chatbot from "./pages/chatbot";
+import Chatbot from "./pages/Chatbot";
 
 const AppRouter = () => {
   const location = useLocation();
